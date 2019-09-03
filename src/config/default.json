@@ -1,0 +1,22 @@
+{
+    "env": {
+        "logLevel": "debug",
+        "port": 2000,
+        "mongoDb": {
+            "host": "localhost",
+            "user": "",
+            "pass": "",
+            "port": 27017,
+            "database": "currency",
+            "srv": false
+        },
+        "jwt": {
+            "expiry": "1d",
+            "password": "J@W&T*&%^$&#TOKEN"
+        },
+        "fixer": {
+            "key": "65a46a3c3c9c4a87ab07b6a72500b80d",
+            "baseurl": "http://data.fixer.io/"
+        }
+    }
+}
